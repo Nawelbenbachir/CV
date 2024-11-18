@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Noto+Sans+Khudawadi&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+	/*font-family:Helvetica,Arial,sans-serif;*/
+	/* font-family: 'Times New Roman',Times,serif;*/
+	/*font-family: 'Courier New', Courier, monospace;*/
+	/* Ce sont les trois familles de polices qui existent sur presque tout les oridnateurs*/
+	font-family: "Noto Sans Khudawadi", sans-serif;
+	font-size: 15px;
+	font-weight:800;
+	
+}
+
+h1{ 
+	background-color : #cc498a;
+	color: aliceblue;
+	Font-size : 48px ;
+	font-family: "Noto Sans Khudawadi", sans-serif;
+}
+h2{
+	color:#cc498a;
+	font-size: 36px;
+	font-family: "Noto Sans Khudawadi", sans-serif;
+}
+ a {
+	text-decoration: none;
+	color:black;
+ }
+	
+address {
+
+	font-style: normal;
+}
+
+aside{
+	text-decoration:underline;
+}
