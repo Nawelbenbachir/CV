@@ -7,12 +7,15 @@ body {
 	font-family: "Noto Sans Khudawadi", sans-serif;
 	font-size: 15px;
 	font-weight:800;
+	margin: 10px;
+	background-color: black;
+	color: aliceblue;
 	
 }
 
 h1{ 
 	background-color : #cc498a;
-	color: aliceblue;
+	color: white;
 	Font-size : 48px ;
 	font-family: "Noto Sans Khudawadi", sans-serif;
 }
@@ -21,9 +24,15 @@ h2{
 	font-size: 36px;
 	font-family: "Noto Sans Khudawadi", sans-serif;
 }
+
+img{
+	height: 200px;
+	width: 160px;
+}
+
  a {
 	text-decoration: none;
-	color:black;
+	color:aliceblue;
  }
 	
 address {
@@ -33,4 +42,31 @@ address {
 
 aside{
 	text-decoration:underline;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+	gap: 10px;
+}
+
+.flex-principal{
+	flex: 4;
+	border : solid 3px #cc498a;
+	padding:10px;
+}
+
+.flex-secondaire{
+	flex: 1;
+	border : solid 3px #cc498a;
+	padding: 10px;
+;
+	color:white;
+	
+}
+
+.flex-secondaire h2{
+	color: #cc498a;
 }
